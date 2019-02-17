@@ -12874,7 +12874,9 @@
     }
 
     .header-fragment .navigation-list .navigation-item {
-        padding: 0
+        padding: 0;
+        left:0px;
+        right:0px;
     }
 
     .header-fragments ul.navigation li a:active {
@@ -13720,7 +13722,7 @@
         .LocaleFlyout a, .LocaleFlyout a:active, .LocaleFlyout a:visited {
             color: #666;
             clear: both;
-            float: left;
+            float: right;
             white-space: nowrap;
             margin-bottom: 4px
         }
