@@ -12870,7 +12870,8 @@
 
     .header-fragment-inner.fiji-header-fragment-inner.site-banner {
         margin: 0;
-        position: absolute
+        position: absolute;
+        width: 100%;
     }
 
     .header-fragment .navigation-list .navigation-item {
@@ -13729,7 +13730,7 @@
 
     #TargetPanel {
         float: left;
-        width: 130px
+        /*width: 130px*/
     }
 
     .ContextMenuPanel {
