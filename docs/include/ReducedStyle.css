@@ -12699,8 +12699,6 @@
 
     .layout, .header-fragments, .header-fragments .page-editing, .page-tabs, .admin-bar .navigation-list, .admin-bar fieldset.field-list, .header-fragment-inner, .footer-fragments, .footer-fragments-header, .footer-fragments-footer {
         /*max-width: 980px;*/
-        min-width: 650px;
-        width: auto
     }
 
     .admin-bar ul.field-list {
@@ -12725,6 +12723,7 @@
         height: 85px;
         margin: 0 auto 15px;
         z-index: 20;
+        min-width: 650px !important;
     }
 
         .header-fragments .header-fragment.login-logout .navigation-item .internal-link.live-id-button a {
