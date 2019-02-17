@@ -9,16 +9,24 @@
     <link rel="stylesheet" type="text/css" href="include/DynamicStyle.css" xmlns="http://www.w3.org/1999/xhtml">
 </head>
 
-<body style="margin:10px !important;">
+<body style="margin:20px !important;">
 
     <div id="theHeader"></div>
 
     <script type="text/javascript">
-        var remote_html_container = jQuery("#theHeader");
+        var headerContainer = jQuery("#theHeader");
         jQuery.ajax({
             url: "include/GitHubPagesWikiHeader.html",
             success: function (data) {
-                remote_html_container.html(data);
+                headerContainer.html(data);
+            }
+        });
+
+        var footerContainer = jQuery("#theFooter");
+        jQuery.ajax({
+            url: "include/GitHubPagesWikiFooter.html",
+            success: function (data) {
+                footerContainer.html(data);
             }
         });
     </script>
@@ -122,6 +130,8 @@
     </div>
 
     <!-- AUTO ADDED BELOW -->
+
+    <div id="theFooter"></div>
 
 </body>
 

@@ -2216,7 +2216,7 @@
 
     .fiji-header-fragment-inner {
         position: relative;
-        width: 960px;
+        /*width: 960px;*/
         margin: 0 auto
     }
 
@@ -12698,7 +12698,7 @@
     }
 
     .layout, .header-fragments, .header-fragments .page-editing, .page-tabs, .admin-bar .navigation-list, .admin-bar fieldset.field-list, .header-fragment-inner, .footer-fragments, .footer-fragments-header, .footer-fragments-footer {
-        max-width: 980px;
+        /*max-width: 980px;*/
         min-width: 980px;
         width: auto
     }
