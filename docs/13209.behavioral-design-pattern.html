@@ -10,8 +10,17 @@
 </head>
 
 <body>
-    <include type="text/html" src="include/GitHubPagesWikiHeader.html"></include>
-    <!--#include file="include/GitHubPagesWikiHeader.html" -->
+    <div id="wrapper"></div>
+
+    <script type="text/javascript">
+        var remote_html_container = jQuery("#wrapper");
+        jQuery.ajax({
+            url: "include/GitHubPagesWikiHeader.html",
+            success: function (data) {
+                remote_html_container.html(data);
+            }
+        });
+    </script>
 
     <!-- AUTO ADDED ABOVE -->
 
