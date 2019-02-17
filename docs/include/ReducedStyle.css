@@ -12647,7 +12647,7 @@
     }
 
     h4, h5, h6 {
-        font-size: 1em
+        font-size: 1.5em !important
     }
 
     .content-fragment.with-header .content-fragment-header div, .layout-content.content-left-sidebar-right .right-sidebar .content-fragment-header div, h2 {
@@ -12724,6 +12724,7 @@
         margin: 0 auto 15px;
         z-index: 20;
         min-width: 650px !important;
+        border-bottom: solid 1px #ccc
     }
 
         .header-fragments .header-fragment.login-logout .navigation-item .internal-link.live-id-button a {
@@ -15813,5 +15814,11 @@
     .content-fragment-page.search-searchform .content-fragment.search-form .search input {
         position: relative;
         left: -3px
+    }
+
+    .attribute-list-footer {
+        border-bottom: solid 2px #aaa;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
     }
 }
