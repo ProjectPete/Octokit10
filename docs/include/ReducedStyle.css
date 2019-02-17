@@ -12699,7 +12699,7 @@
 
     .layout, .header-fragments, .header-fragments .page-editing, .page-tabs, .admin-bar .navigation-list, .admin-bar fieldset.field-list, .header-fragment-inner, .footer-fragments, .footer-fragments-header, .footer-fragments-footer {
         /*max-width: 980px;*/
-        min-width: 980px;
+        /*min-width: 980px;*/
         width: auto
     }
 
@@ -12717,15 +12717,14 @@
     }
 
     .layout-content {
-        width: 980px;
+        /*width: 980px;*/
         margin: 0 auto
     }
 
     .header-fragments {
-        height: 159px;
+        height: 85px;
         margin: 0 auto 15px;
         z-index: 20;
-        border-bottom: solid 1px #ccc
     }
 
         .header-fragments .header-fragment.login-logout .navigation-item .internal-link.live-id-button a {
@@ -15393,7 +15392,7 @@
         position: absolute;
         z-index: 3000;
         width: 100%;
-        min-width: 980px
+        /*min-width: 980px*/
     }
 
     .content-fragment.activity-message-list .full-post, .full-post .post-content {
