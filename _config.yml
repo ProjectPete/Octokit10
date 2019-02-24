@@ -12,7 +12,7 @@ plugins:
  - jekyll-sitemap
  - jekyll-avatar
 
-repository: technet2/Wiki
+# repository: technet2/Wiki
 
 exclude:
   
