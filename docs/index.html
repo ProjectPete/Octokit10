@@ -5,28 +5,28 @@ weight: 2
 
 {% include header.html %}
 
-<!-- docs/index -->
+<!-- Added by docs/index -->
 
 <div class="container">
 
-	<header>
-		<ul>
-		  {% for p in site.pages %}
-		    {% if p.weight == 3 %} <!-- weight is defined in your page front matter -->
-		      <li>
-		        <a href="{{ p.url | escape }}">
-		          {{ p.title | escape}} 
-		        </a>
-		      </li>
-		    {% endif %}
-		{% endfor %}
-		</ul>
-	</header>
+    <header>
+        <!-- Added by docs/index -->
+        <ul>
+            {% for p in site.pages %}
+            {% if p.weight == 3 %} <!-- weight is defined in your page front matter -->
+            <li>
+                <a href="{{ p.url | escape }}">
+                    {{ p.title | escape}}
+                </a>
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </header>
 
-hiya docs index
+    hiya docs index
 
 </div>
 
-<!-- docs/index -->
-
+<!-- Added by docs/index -->
 {% include footer.html %}
