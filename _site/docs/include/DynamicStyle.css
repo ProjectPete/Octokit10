@@ -42,3 +42,117 @@ li.field-item.post-feature {display:none}
 
 .MSTToolbarVisible .header-fragment-outer.fiji-header-fragment-outer.site-banner {top: 80px;}
 .MSTToolbarVisible #megabladeContainer {top: 40px;}
+
+.tallyArea {
+    column-count: 5;
+    position:relative !important;
+    clear:both !important;
+}
+
+.tallyItem {
+    width: 150px;
+    min-height: 60px;
+    background-color: #d8d8d8;
+    text-align: center;
+    vertical-align: central;
+    float: left;
+    clear: both;
+    margin: 10px;
+    cursor: pointer;
+    position: relative;
+    -webkit-column-break-inside: avoid; /* Chrome, Safari */
+    page-break-inside: avoid; /* Theoretically FF 20+ */
+    break-inside: avoid-column; /* IE 11 */
+    display: table;
+}
+
+.tallyTitle {
+    background-color: white;
+    font-size: 12px !important;
+    font-weight: bold;
+    float: left;
+    width: 140px;
+    clear: both;
+    margin: 5px;
+    color: black;
+}
+
+.tallyTally {
+    font-size: 12px;
+    float: left;
+    margin: 5px;
+    position:absolute;
+    bottom:2px;
+    right:2px;
+}
+
+.tallyCount {
+    font-size: 12px;
+    float: left;
+    margin: 5px;
+}
+
+.tallyTitle.a2z {
+    background-color: white;
+    font-size: 30px !important;
+    font-weight: bold;
+    float: left;
+    width: 50px;
+    clear: both;
+    margin: 5px;
+    color: black;
+}
+}
+
+.tallyTally.a2z {
+    font-size: 12px;
+    float: left;
+    margin: 5px;
+}
+
+.tallyCount.a2z {
+    font-size: 12px;
+    float: left;
+    margin: 5px;
+}
+
+/** {
+    box-sizing: border-box;
+}*/
+
+
+@media screen and (max-width: 400px) {
+    .tallyArea {
+        column-count: 1;
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 600px) {
+    .tallyArea {
+        column-count: 2;
+    }
+}
+@media screen and (min-width:600px) and (max-width: 800px) {
+    .tallyArea {
+        column-count: 3;
+    }
+}
+@media screen and (min-width:800px) and (max-width: 1000px) {
+    .tallyArea {
+        column-count: 4;
+    }
+}
+@media screen and (min-width:1000px) and (max-width: 1200px) {
+    .tallyArea {
+        column-count: 5;
+    }
+}
+@media screen and (min-width:1200px) and (max-width: 1400px) {
+    .tallyArea {
+        column-count: 6;
+    }
+}
+@media screen and (min-width:1400px) {
+    .tallyArea {
+        column-count: 8;
+    }
+}

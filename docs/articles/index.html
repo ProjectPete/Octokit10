@@ -1,0 +1,34 @@
+---
+title: Docs Index
+weight: 3
+---
+
+{% include header.html %}
+
+<!-- Using docs/articles/index.html -->
+
+<div class="container">
+
+	<header>
+		<ul>
+		  {% for p in site.pages %}
+		    {% if p.weight == 3 %} <!-- weight is defined in your page front matter -->
+		      <li>
+		        <a href="{{ p.url | escape }}">
+		          {{ p.title | escape}} 
+		        </a>
+		      </li>
+		    {% endif %}
+		{% endfor %}
+		</ul>
+	</header>
+
+hiyazz docs articles index
+
+</div>
+
+<!-- Using docs/articles/index.html -->
+
+{% include footer.html %}
+
+--> {% avatar [USERNAME] %} <--
